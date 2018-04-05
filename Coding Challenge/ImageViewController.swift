@@ -31,7 +31,7 @@ class ImageViewController: UIViewController {
         
         if let image = gesture.view as? UIImageView {
             print("Image Tapped")
-            self.AlertMessage(titleText: "", messageText: "Hello \(self.username)")
+            self.AlertMessage(titleText: "Hello", messageText: "\(self.username)")
             self.labelToBeChanged.text = "Hello \(self.username)"
             self.labelToBeChanged.isHidden = false
         }

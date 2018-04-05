@@ -27,7 +27,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
         self.usernameTextField.text = ""
+        self.usernameTextField.backgroundColor = UIColor.white
         self.passwordTextField.text = ""
+        self.passwordTextField.backgroundColor = UIColor.white
     }
     
     // Show navigationBar outside this view
